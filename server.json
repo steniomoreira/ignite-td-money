@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-04-07T19:25:01.689Z"
+    },
+    {
+      "id": 2,
+      "description": "Aluguel do apartamento",
+      "type": "outcome",
+      "category": "Casa",
+      "price": 1200,
+      "createdAt": "2023-04-07T15:00:01.689Z"
+    },
+    {
+      "id": 3,
+      "description": "Enel",
+      "type": "outcome",
+      "category": "Casa",
+      "price": 200,
+      "createdAt": "2023-04-01T16:00:01.689Z"
+    }
+  ]
+}
