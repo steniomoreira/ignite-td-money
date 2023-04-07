@@ -16,10 +16,16 @@ export const TransactionTable = styled.table`
   td {
     padding: 1.5rem 2rem;
     background: ${(props) => props.theme["gray-700"]};
+    text-align: center;
 
     :first-child {
+      text-align: left;
       border-top-left-radius: 6px;
       border-bottom-left-radius: 6px;
+    }
+
+    :nth-child(2) {
+      text-align: right;
     }
 
     :last-child {
