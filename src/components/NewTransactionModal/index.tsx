@@ -24,7 +24,8 @@ export function NewTransactionModal() {
   } = useForm<NewTransactionFormInputs>({
     resolver: zodResolver(newTransactionFormSchema),
     defaultValues: {
-      type: "income"
+      price: 0,
+      type: "income",
     }
   });
 
