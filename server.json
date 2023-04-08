@@ -23,6 +23,22 @@
       "category": "Casa",
       "price": 200,
       "createdAt": "2023-04-01T16:00:01.689Z"
+    },
+    {
+      "description": "Amoço",
+      "price": 14,
+      "category": "Alimentação",
+      "type": "income",
+      "createdAt": "2023-04-08T00:25:54.344Z",
+      "id": 4
+    },
+    {
+      "description": "Internet",
+      "price": 180,
+      "category": "Casa",
+      "type": "outcome",
+      "createdAt": "2023-04-08T00:26:32.818Z",
+      "id": 5
     }
   ]
 }
