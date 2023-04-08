@@ -1,8 +1,8 @@
-import { useContext } from "react";
-import { TransactionsContext } from "../context/TransactionsContext";
+import { useContext } from 'react'
+import { TransactionsContext } from '../context/TransactionsContext'
 
 export function useTransactionsContext() {
-  const  useTransitionsContext =  useContext(TransactionsContext);
+  const useTransitionsContext = useContext(TransactionsContext)
 
-  return useTransitionsContext;
+  return useTransitionsContext
 }
